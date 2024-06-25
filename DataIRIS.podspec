@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/vincent4bd/DataIRIS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
+  s.preserve_paths = ['DataIRIS/**/*']
 
   s.source_files = 'DataIRIS/Classes/**/*'
   
